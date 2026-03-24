@@ -7,7 +7,7 @@ import java.util.UUID;
 /**
  * Die Klasse wurde abstract gesetzt. 
  * Id wurde final gesetzt, damit sie nicht geändert werden kann. 
- * Diese wird nun automatisch im Konstruktur generiert, damit man icht selbst eine vergeben muss. 
+ * Diese wird nun automatisch im Konstruktur generiert, damit man nicht selbst eine vergeben muss. 
  */
 public abstract class Geometry implements Comparable<Geometry> {
 	private final String id;
