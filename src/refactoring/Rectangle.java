@@ -1,8 +1,5 @@
 package refactoring;
 
-// keine final-Attribute
-// 
-
 public class Rectangle extends Geometry {
 
 	private double width;
@@ -22,17 +19,6 @@ public class Rectangle extends Geometry {
 		this.width = width;
 		this.height = height;
 	}
-
-	/*protected Rectangle(int id, double width, double height, boolean filled, String color) {
-		super(id, width, height, filled, color);
-
-		if (width < 0 || height < 0) {
-			System.out.println("Value less than zero not allowed!");
-		}
-		this.id = id;
-		this.width = width;
-		this.height = height;
-	}*/
 
 	@Override
 	public double calculateArea() {

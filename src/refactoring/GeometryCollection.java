@@ -1,8 +1,5 @@
 package refactoring;
 
-// 2x contains
-// getById kontrollieren 
-
 import java.util.ArrayList;
 import java.util.List;
 

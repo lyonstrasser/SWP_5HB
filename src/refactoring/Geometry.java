@@ -14,10 +14,6 @@ public abstract class Geometry implements Comparable<Geometry> {
 	private boolean filled;
 	private String color;
 
-	public Geometry() {
-		this.id = UUID.randomUUID().toString();
-	}
-
 	/**
 	 * Throw-Klausel wurde entfernt, da die ID bereits eindeutig generiert wird
 	 * @param id
@@ -29,13 +25,11 @@ public abstract class Geometry implements Comparable<Geometry> {
 		this.filled = filled;
 		this.color = color;
 	}
-
-	// Dritter Konstruktor wird nicht mehr benötigt 
 	
 	public abstract double calculateArea();
 	
 	/**
-	 * Name angepasst, damit man gleich sieht was es macht
+	 * Name angepasst, damit man gleich sieht, was es macht
 	 * @return
 	 */
 	public abstract double getCircumference();
